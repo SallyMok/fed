@@ -42,7 +42,7 @@ Anime kleding webshop
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Homepagina
-<img src="images/homepagina.jpg>
+<img src="images/homepage.jpg>
 
 
 #### Screenshot(s) van de tweede pagina (small screen):
