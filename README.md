@@ -22,7 +22,7 @@ Sally Mok
 Rode piste
 
 #### Je focus:
-Surface plane
+hier je focus (kies uit responsive óf surface plane)
  
 </details>
 
@@ -42,12 +42,11 @@ Anime kleding webshop
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Homepagina
-<img src="images/homepage.jpg">
-
+<img src="images/homepage.jpg" width="375px" alt="homepagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Hypeland x collab
-<img src="images/collab.jpg"> 
+<img src="images/collab.jpg" width="375px" alt="collabpagina">
  
 </details>
 
@@ -61,13 +60,14 @@ Hypeland x collab
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+<img src="images/schets.jpeg">
+
+Ik vond het best moeilijk om een breakdownschets te maken, omdat ik nog niet weet wat ik precies wil maken.
 
 ### dynamisch deel (bijv menu): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+
 
 ### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -83,24 +83,18 @@ Hypeland x collab
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+Ik heb te weinig code en werk om te laten zien, hierdoor kreeg ik geen feedback. Ik ben nog bezig met
+de html.
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
+Mijn groepje en ik hebben geen agenda opgesteld, we stelden individueel vragen.
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+Geen uitkomsten, ik moet nog veel aan mijn website werken.
 
 </details>
 
@@ -116,24 +110,19 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+Ik heb te weinig code en werk om te laten zien, hierdoor kreeg ik geen feedback.
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+Mijn groepje en ik hebben geen agenda opgesteld, we stelden individueel vragen.
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+Geen uitkomsten, ik moet nog veel aan mijn website werken.
+
 
 </details>
 
@@ -147,30 +136,27 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken na test in 8e voortgang</summary>
 
 ### Bevindingen
-Lijst met je bevindingen die in de test naar voren kwamen:
+Als ik een website voor een persoon met een (motorische) beperking zou maken, dan zou die niet goed
+gekeurd worden. 
 
 #### Titel eerste bevinding
 Hier korte omschrijving (met indien nodig een afbeelding)
+Tijdens de les kregen we verschillende brillen om de ogen deels de bedekken of een ander kleur te geven aan het beeld.
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Qua kleurencontract is mijn website niet goed voor iemand die slechtziend is. Ik zou de kleuren moet aanpassen, zodat er meer een duidelijk contract te zien is tussen de verschillende kleuren. Ook zou ik mijn buttons groter moet maken, zo kunnen mensen die slecht zien het beter kunnen aanklikken dan wanneer het erg klein is. 
+<img src="images/foto1.jpeg">
+
+
 
 
 #### Titel tweede bevinding. 
 Hier korte omschrijving (met indien nodig een afbeelding)
+Voor de tweede test kreeg ik een 'trilapparaat' vastgeplakt aan mijn arm, dit moest de trillende handen van een Parkinson patient nabootsen. 
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Mijn bevinding was dat het typen erg moeizaam ging en het aanklinken van links en buttons ook.
+Het typen kan ik niet verbeteren, omdat dit met de keyboard gaat. Wat ik wel kan verbeteren hiier, zijn de links en buttons groter maken. 
 
 
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
 
 </details>
 
@@ -186,24 +172,23 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+Tijdens het voortgang gesprek was ik qua vormgeving klaar met mijn homepagina en moest ik nog beginnen met mijn 2e pagina. Hier wist ik nog niet welk pagina ik wilde maken. Mijn focus lag op surface plane en ik dacht als ik een collab pagina zou maken, verandert er niet veel qua vormgeving. Ik heb daarom gekozen om een product pagina te maken.
+
+Verder had ik geen vragen aan de studentassistenten, behalve of er een 2e style.css gemaakt mag worden voor de 2e webpagina en ik kreeg als antwoord nee. 
+
+
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+Mijn groepje en ik hebben geen agenda opgesteld, we stelden individueel vragen.
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+Volgens de studenassistente zien mijn homepagina er goed uit en ik moet nu nog aan de slag met pagina 2 en 
+de surface plan aan toevoegen.
 
 </details>
 
@@ -219,9 +204,20 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+Over het algemeen vond ik het goed gaan. Ik was alleen erg laat begonnen aan het project, waardoor ik in  de laatste week gehaast alles moest afmaken. Als er dingen waren die ik niet wist hoe het gedaan moest worden, ging ik op https://www.w3schools.com/ kijken of ik daar de info kon vinden die ik nodig had. Zoals de hamburger menu en slider voor mijn afbeeldingen heb ik op Youtube tutorials bekeken, omdat ik er niet uitkwam. 
+
+Waar ik heel lang mee vastzat, was de javascript. Ik heb op 2 pagina's functies aangemaakt op 1 script, alleen stonden niet alle funties op beide pagina's. Hierdoor kreeg ik steeds een foutmelding op mijn console en sommige functies konden niet meer uitgevoerd worden. Doordat ik te laat aan mijn website was begonnen, had ik de studentassistenten niet meer gecontacteerd voor hulp. Wat ik had gedaan om het probleem op te lossen, was een extra javascript maken en deze aan mijn homepagina html koppelen. Zo werken alle functies weer, alleen weet ik niet of er 2 javascripten gebruikt mogen worden. Want voor css mag er maar 1 bestand gebruikt worden voor beide pagina's.
+
 ### Screenshot(s)
 
 hier screenshot(s) van je eindresultaat
+
+Homepagina
+<img src="images/eindwerk1.png">
+
+Product pagina
+<img src="images/eindwerk2.png">
+
 
 </details>
 
@@ -236,8 +232,13 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. Audio: https://www.youtube.com/watch?v=jqXUm2YS-mM
+2. Hamburger menu tutorial: https://www.youtube.com/watch?v=BN6fH1nRDxA
+3. Afbeeldingen slider tutorial: https://www.youtube.com/watch?v=SYw3TTLtZLc
+4. Afbeeldingen: https://hypland.com/
+5. Play svg: https://www.svgrepo.com/svg/156337/play-button
+5. Pauze svg: https://www.iconfinder.com/icons/211871/pause_icon
+6. Zon/maan svg: https://icon-icons.com/icon/theme-light-dark/137104
+7. Winkelkar: https://www.svgrepo.com/svg/48190/shopping-cart
 
 </details>
