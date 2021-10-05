@@ -1,0 +1,618 @@
+CSS Document */ * *,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+
+
+/* BODY STYLING EN KLEUREN VARIABLEN  */
+/*  */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--firstcolor);
+}
+
+
+
+:root {
+  --firstcolor: white;
+  --secondcolor:black;
+  --headercolor: white;
+}
+
+
+
+body.dark {
+  --firstcolor: black;
+  --secondcolor: white;
+  --headercolor: powderblue;  
+}
+
+
+
+/* HEADER CONTAINER EN ELEMENTEN */
+/*  */
+header {
+  background-color: var(--headercolor);
+  height: 80px;
+  width: 100%;
+  position: relative;
+}
+
+
+/* HYPLAND LOGO */
+header img:first-of-type {
+  max-width: 250px;
+  max-height: 42px;
+  padding-top: 24px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* SHOPPING CART */
+header div:last-of-type img{
+  width: 40px;
+  height: 40px;
+  top: -5px;
+  right: 10px;
+  position: absolute;
+}
+
+
+/* HAMBURGER MENU */
+.navbar{
+  width: 200px;
+  height: 500px;
+  background-color: var(--firstcolor);
+  opacity: 90%;
+  border: 0.5px solid var(--secondcolor);
+  position: fixed;
+  top: 0;
+  left: -300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 75% 20% 0;
+  z-index: 1000;
+  transition: left .8s;
+}
+
+
+/* INHOUD SCHUIFT NAAR LINKS */
+.change {
+  left: 0;
+}
+
+
+/* DRIE LIJNEN CONTAINER */
+.hamburger-menu {
+  width: 35px;
+  height: 30px;
+  position: fixed;
+  top: 20px;
+  left: 10px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+/* LIJNEN STYLING */
+.line {
+  width: 80%;
+  height: 3px;
+  background-color: var(--secondcolor);
+  transition: all .8s;
+}
+
+
+/* LIJN 1 BEWEGING */
+.change .line-1 {
+  transform: rotate(-405deg) translate(-8px, 6px);
+}
+
+
+/* LIJN 2 */
+.change .line-2 {
+  opacity: 0;
+}
+
+
+/* LIJN 3 BEWEGING */
+.change .line-3 {
+  transform: rotate(405deg) translate(-8px, -6px);
+}
+
+
+/* HAMBURGER MENU INHOUD TEKST STYLING */
+.nav-list {
+  text-align: left;
+}
+
+
+/* HAMBURGER MENU INHOUD LIST STYLING */
+.nav-item {
+list-style: none;
+margin: 25px;
+}
+
+
+/* HAMBURGER MENU INHOUD TEXT STYLING */
+.nav-link {
+  text-decoration: none;
+  font-size: 13px;
+  color: var(--secondcolor);
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+
+/* DARK LIGH MODE KNOP */
+.darkmode {
+  background-color:mediumpurple;
+  width: 64px;
+  height: 32px;
+  position: absolute;
+  margin-top: 275px;
+  margin-right: 36px;
+  border-radius: 16px;
+  background-image: url(../images/sunmoon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+
+
+
+/* MAIN CONTAINER EN STYLING */
+/*  */
+main div{
+  overflow: hidden;  
+}
+
+
+/* H1 STYLING */
+main h1{
+  height: 72px;
+  font-size: 32px;
+  text-align: center;
+  color: var(--secondcolor);
+}
+
+
+/* CONTAINER AFBEELDINGEN SLIDER */
+main div figure{
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 20s slider infinite;
+}
+
+
+/* AFBEELDINGEN */
+main div figure img{
+  float: left;
+  width: 20%;
+}
+
+
+/* AFBEELDINGEN BEWEGINGEN ANIMATIE */
+@keyframes slider{
+  0% {
+      left: 0;
+  }
+  20% {
+      left: 0%;
+  }
+  25% {
+    left: -100%;
+  }
+  45%{
+    left: -100%;
+  }
+  50%{
+    left: -200%;
+  }
+  70%{
+    left: -200%;
+  }
+  75%{
+    left: -300%;
+  }
+  90%{
+    left: -300%;
+  }
+  100%{
+    left: -400%;
+  }
+}
+
+
+/* 1E H2 STYLING */
+main h2:first-of-type {
+  color: white;
+  text-align: center;
+  z-index: 300;
+  font-weight: bold;
+  font-size: 24px;
+  position: absolute;
+  width: 100%;
+  -webkit-text-stroke: 0.5px black;
+  margin-top: -140px;
+}
+
+
+/* NARUTO PRODUCTEN CONTAINER */
+section:first-of-type {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+/* NARUTO PRODUCTEN AFBEELDINGEN */
+section:first-of-type img {
+  width: 175px;
+  height: 175px;
+  margin-top: 16px;
+}
+
+
+/* NARUTO PRODCUTEN AFBEELDINGEN FLEXBOX */
+section:first-of-type ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  column-gap: 8px;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* NARUTO PRODUCTEN AFBEELDINGEN LINK */
+section:first-of-type li a {
+  text-decoration: none;
+}
+
+
+/* NARUTO PRODUCTEN TEKST EN PRIJS */
+section:first-of-type p {
+  text-align: center;
+  font-size: 11.5px;
+  color: var(--secondcolor);
+}
+
+
+/* 1E VIEW MORE BUTTON CONTAINER*/
+section:nth-of-type(2) {
+  /* background-color: turquoise; */
+  margin-top: 3em;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+
+/* 1E VIEW MORE BUTTON TEKST STYLING */
+section:nth-of-type(2) a {
+  text-decoration: none;
+  color: var(--firstcolor);
+  background: var(--secondcolor);
+  padding: 8px;
+  border-radius: 8px;
+}
+
+
+/* 2E H2 STYLING */
+main h2:nth-of-type(2) {
+  color: white;
+  text-align: center;
+  z-index: 300;
+  font-weight: bold;
+  font-size: 24px;
+  position: absolute;
+  width: 100%;
+  -webkit-text-stroke: 0.5px black;
+  bottom: -680px;
+}
+
+
+/* INUYASHA PRODUCTEN CONTAINER */
+section:nth-of-type(3) {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+/* INUYASHA PRODUCTEN AFBEELDINGEN */
+section:nth-of-type(3) img {
+  width: 175px;
+  height: 175px;
+  margin-top: 16px;
+}
+
+
+/* INUYASHA PRODUCTEN AFBEELDINGEN FLEXBOX */
+section:nth-of-type(3) ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  column-gap: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* INUYASHA PRODUCTEN AFBEELDINGEN LINK  */
+section:nth-of-type(3) li a {
+  text-decoration: none;
+}
+
+
+/* INUYASHA PRODUCTEN TEKST EN PRIJS */
+section:nth-of-type(3) p {
+  text-align: center;
+  font-size: 11.5px;
+  color: var(--secondcolor);
+}
+
+
+/* 2E VIEW MORE BUTTON CONTAINER */
+section:nth-of-type(4) {
+  margin-top: 3em;
+  text-align: center;
+}
+
+
+/* 2E VIEW MORE BUTTON TEKST STYLING */
+section:nth-of-type(4) a {
+  text-decoration: none;
+  color: var(--firstcolor);
+  background: var(--secondcolor);
+  padding: 8px;
+  border-radius: 8px;
+}
+
+
+
+
+/* PAGINE 2 STYLING */
+/*  */
+/*  */
+
+
+/* MUZIEK BUTTON CONTAINER  */
+.pagina2 section:first-of-type {
+  width: 100%;
+  height: 48px;
+  position: relative;
+  margin-top: 20px;
+}
+
+
+/* MUZIEK BUTTON STYLING */
+.pagina2 section:first-of-type button {
+  background-color: blanchedalmond;
+  width: 80px;
+  height: 32px;
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/* MUZIEK KNOP PLAY AFBEELDING STYLING */
+.pagina2 .playbutton img {
+  height: 24px;
+  width: 24px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+}
+
+
+/* H1 STYLING */
+.pagina2 main h1 {
+  height: 32px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 200;
+  text-transform: uppercase;
+  color: var(--secondcolor);
+  padding-top: 20px;
+}
+
+
+/* H2 STLING */
+.pagina2 main h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 200;
+  color: var(--secondcolor);
+  margin-top: 0;
+}
+
+
+/* NARUTO PRODUCT AFBEELDING */
+.pagina2 main section:nth-of-type(2) img {
+  width: 360px;
+  height: 360px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* ADD TO CART BUTTON CONTAINER */
+.pagina2 main div {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin-top: 48px;
+}
+
+
+/* ADD TO CART BUTTON STYLING */
+.pagina2 main div button {
+  padding: 10px;
+  background-color: var(--secondcolor);
+  color: var(--firstcolor);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+
+/* CONTAINER VOOR EXTRA INFORMATIES */
+.pagina2 section:nth-of-type(3){
+  width: 75%;
+  margin: auto;
+}
+
+
+/* STYLING VAN DESCRIPTION EN SHIPPING */
+.pagina2 section:nth-of-type(3) details summary {
+  width: 100%;
+  padding: 16px 0;
+  color: var(--secondcolor);
+  border-top: 1px solid var(--secondcolor);
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 300;
+  list-style: none;
+  position: relative;
+}
+
+
+/* STYLING VAN + */
+.pagina2 section:nth-of-type(3) details summary::after {
+  content: "+";
+  color: var(--secondcolor);
+  position: absolute;
+  font-size: 20px;
+  line-height: 0;
+  margin-top: 12px;
+  right: 5%;
+  font-weight: 300;
+  transform-origin: center;
+  transition: .2s linear;
+}
+
+
+/* DRAAIEN VAN + */
+.pagina2 section:nth-of-type(3) details[open] summary:after {
+  transform: rotate(45deg)
+}
+
+
+/* DESCRIPTION EN SHIPPING TEKST STYLING */
+.pagina2 section:nth-of-type(3)  details p {
+ text-align: left;
+ color: var(--secondcolor);
+ font-size: 16px;
+}
+
+
+
+
+/* FOOTER STYLING */
+/*  */
+
+
+/* FOOTER CONTAINER */
+footer {
+  background-color: var(--secondcolor);
+  height: 150px;
+  margin-bottom: 0;
+  margin-top: 40px;
+}
+
+
+/* FOOTER UNORDERED LIST */
+footer nav ul{
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  padding-top: 16px;
+  list-style-type: none;
+}
+
+
+/* LIST LINKS */
+footer a {
+  color: var(--firstcolor);
+  text-decoration: none;
+  font-size: larger;
+}
+
+
+/* FORM CONTAINER */
+form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  /* background-color: chocolate; */
+  position: relative;
+  top: 32px; 
+}
+
+
+/* FORM INPUT GEDEELTE 'ENTER YOUR EMAIL' */
+form input{
+  font-size: 18px;
+  color: black;
+  padding: 10px 5px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  background-color: #ececec;
+  padding-left: 16px;
+}
+
+
+/* FORM SUBSCRIBE BUTTON STYLING */
+form button{
+  color: white;
+  padding: 10px 5px;
+  font-size: 20px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  background-color: #4769d8;
+  cursor: pointer;
+  transition: .2s;
+}
+
+
+/* FORM SUBSCRIBE BUTTON VERANDERT VAN KLEUR TIJDENS HOVER */
+form button:hover{
+  background-color:rgb(146, 192, 198);
+}
+
+
+/* FORM TEKST STYLING */
+form p{
+  color: var(--firstcolor);
+  font-size: 20px;
+  position: absolute;
+  bottom: 32px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
