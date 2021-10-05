@@ -22,7 +22,7 @@ Sally Mok
 Rode piste
 
 #### Je focus:
-hier je focus (kies uit responsive óf surface plane)
+Surface plane
  
 </details>
 
@@ -42,11 +42,12 @@ Anime kleding webshop
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Homepagina
-<img src="images/homepage.png" width="375px" alt="homepagina">
+<img src="images/homepagina.jpg>
+
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Hypeland x collab
-<img src="images/collab.png" width="375px" alt="collabpagina">
+<img src="images/collab.jpg"> 
  
 </details>
 
